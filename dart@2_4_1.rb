@@ -3,6 +3,8 @@ class Dart < Formula
   homepage "https://www.dartlang.org/"
 
   version "2.4.1"
+  keg_only :versioned_formula
+
   if Hardware::CPU.is_64_bit?
     url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.4.1/sdk/dartsdk-macos-x64-release.zip"
     sha256 "62006127bd3acd1b7eb2e4fc7baed061eb19b80c4ba4af481db5244a081fff3e"
